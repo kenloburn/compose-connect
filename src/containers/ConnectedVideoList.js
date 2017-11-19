@@ -1,11 +1,4 @@
-import { connect } from 'react-redux';
 import VideoList from '../components/VideoList';
+import { videosConnector, channelsConnector } from '../connectors';
 
-const mapStateToProps = state => ({
-  videos: state.videos,
-  channels: state.channels,
-});
-
-export default connect(
-  mapStateToProps,
-)(VideoList);
+export default channelsConnector(videosConnector(VideoList));

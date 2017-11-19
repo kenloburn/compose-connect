@@ -1,10 +1,4 @@
-import { connect } from 'react-redux';
 import ResultCounter from '../components/ResultCounter';
+import { videosConnector } from '../connectors';
 
-const mapStateToProps = state => ({
-  videos: state.videos,
-});
-
-export default connect(
-  mapStateToProps,
-)(ResultCounter);
+export default videosConnector(ResultCounter);
