@@ -1,14 +1,10 @@
+import * as R from 'ramda';
 import { connect } from 'react-redux';
 
-export function videosConnector(c) {
-  return connect(
-    state => ({ videos: state.videos }),
-  )(c);
-}
+export const videosConnector = R.compose(
+  connect(state => ({ videos: state.videos }))
+);
 
-export function channelsConnector(c) {
-  return connect(
-    state => ({ channels: state.channels }),
-  )(c);
-}
-
+export const channelsConnector = R.compose(
+  connect(state => ({ channels: state.channels }))
+);
