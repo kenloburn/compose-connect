@@ -1,4 +1,11 @@
+import * as R from 'ramda';
 import VideoList from '../components/VideoList';
-import { videosConnector, channelsConnector } from '../connectors';
+import {
+  videosConnector as withVideos,
+  channelsConnector as withChannels,
+} from '../connectors';
 
-export default channelsConnector(videosConnector(VideoList));
+export default R.compose(
+  withVideos,
+  withChannels,
+)(VideoList);

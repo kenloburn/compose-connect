@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94129dd9-1d1d-4482-a753-be9f47d6832f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/connectors.js" afterPath="$PROJECT_DIR$/src/connectors.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ConnectedResultCounter.js" afterPath="$PROJECT_DIR$/src/containers/ConnectedResultCounter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/ConnectedVideoList.js" afterPath="$PROJECT_DIR$/src/containers/ConnectedVideoList.js" />
@@ -52,14 +51,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectedVideoList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectedVideoList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/ConnectedVideoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,10 +74,10 @@
       <file leaf-file-name="ConnectedResultCounter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/ConnectedResultCounter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
               <folding>
-                <element signature="e#0#56#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,14 +93,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connectors.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="connectors.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/connectors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,9 +128,9 @@
         <option value="$PROJECT_DIR$/src/components/Video.js" />
         <option value="$PROJECT_DIR$/src/components/ResultCounter.js" />
         <option value="$PROJECT_DIR$/src/util.js" />
-        <option value="$PROJECT_DIR$/src/connectors.js" />
-        <option value="$PROJECT_DIR$/src/containers/ConnectedResultCounter.js" />
         <option value="$PROJECT_DIR$/src/containers/ConnectedVideoList.js" />
+        <option value="$PROJECT_DIR$/src/containers/ConnectedResultCounter.js" />
+        <option value="$PROJECT_DIR$/src/connectors.js" />
       </list>
     </option>
   </component>
@@ -235,7 +230,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8419000" />
+    <option name="totallyTimeSpent" value="8880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -380,9 +375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -391,7 +384,7 @@
         <state relative-caret-position="15">
           <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -408,9 +401,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -518,33 +509,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectors.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/ConnectedResultCounter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ConnectedResultCounter.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/ConnectedVideoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/ConnectedVideoList.js">
+    <entry file="file://$PROJECT_DIR$/src/connectors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>

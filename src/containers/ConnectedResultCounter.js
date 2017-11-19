@@ -1,4 +1,9 @@
+import * as R from 'ramda';
 import ResultCounter from '../components/ResultCounter';
-import { videosConnector } from '../connectors';
+import {
+  videosConnector as withVideos,
+} from '../connectors';
 
-export default videosConnector(ResultCounter);
+export default R.compose(
+  withVideos,
+)(ResultCounter);
